@@ -1,6 +1,6 @@
 # MedBot
 
-##FrontEnd
+## FrontEnd
 -------------------------
 
 - The frontend is done in kotlin.
@@ -8,7 +8,7 @@
 - Make sure you create a firebase and update the link in kotlin.
 - The file to change it is : front\app\src\main\java\com\project\healthcarebot\realtimedatabase\RealtimeDatabaseRepository.kt
 
-##BackEnd
+## BackEnd
 --------------------------
 
 - We are using python for backend.
@@ -16,3 +16,11 @@
 - Make sure you change the link for firebase to your own.
 - The path to file for changing it is : back\listen.py
 - Also make sure to take a api key from openai and update it in : back\gpt.py
+
+## Running The project
+-----------------------------
+
+- Make sure to install required libraries.
+- Sorry for not providing the requirement.txt
+- If you have to use android app, run listen.py
+- else run run.py
