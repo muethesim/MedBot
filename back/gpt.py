@@ -1,9 +1,11 @@
 import openai
 
+url = 'Enter your openai URL here...'
+
 class GetGPT:
 
     def __init__(self) -> None:
-        openai.api_key = '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'
+        openai.api_key = url
 
     def getResult(self, prompt):
         response = openai.Completion.create(
