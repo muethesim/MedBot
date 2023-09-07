@@ -11,9 +11,11 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.tasks.await
 
+val url : String = "Enter your Here!!!"
+
 class RealtimeDatabaseRepository {
     private val database =
-        Firebase.database("https://healthcarebot-901fa-default-rtdb.asia-southeast1.firebasedatabase.app/")
+        Firebase.database(url)
     private lateinit var databaseListener: ValueEventListener
 
     suspend fun insertMessageModel(entry: MessageRealtimeDatabaseModel) {
