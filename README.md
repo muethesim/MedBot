@@ -14,6 +14,8 @@
 - Make sure you change the link for firebase to your own.
 - The path to file for changing it is : back\listen.py
 - Also make sure to take a api key from openai and update it in : back\gpt.py
+- Run the below code in terminal to download the model :
+    - python -m spacy download en_core_web_sm
 
 ## Running The project
 
